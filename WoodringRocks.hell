@@ -1,0 +1,51 @@
+// A program that prints "Woodring Rocks!"
+
+.CODE
+
+OUT:
+	Out/Nop
+	Jmp
+
+ROT:
+	Rot/Nop
+	Jmp
+
+HALT:
+	Hlt
+
+.DATA
+
+ENTRY:
+	ROT 261 R_ROT	// 'W'
+	OUT ?- R_OUT
+	ROT 333 R_ROT 	// 'o'
+	OUT ?- R_OUT
+	ROT 333 R_ROT 	// 'o'
+	OUT ?- R_OUT
+	ROT 300 R_ROT 	// 'd'
+	OUT ?- R_OUT
+	ROT 342 R_ROT 	// 'r'
+	OUT ?- R_OUT
+	ROT 315 R_ROT 	// 'i'
+	OUT ?- R_OUT
+	ROT 330 R_ROT 	// 'n'
+	OUT ?- R_OUT
+	ROT 309 R_ROT 	// 'g'
+	OUT ?- R_OUT
+	ROT 96 R_ROT 	// space
+	OUT ?- R_OUT
+	ROT 246 R_ROT 	// 'R'
+	OUT ?- R_OUT
+	ROT 333 R_ROT 	// 'o'
+	OUT ?- R_OUT
+	ROT 297 R_ROT 	// 'c'
+	OUT ?- R_OUT
+	ROT 321 R_ROT 	// 'k'
+	OUT ?- R_OUT
+	ROT 345 R_ROT 	// 's'
+	OUT ?- R_OUT
+	ROT 99 R_ROT 	// '!'
+	OUT ?- R_OUT
+	ROT 30 R_ROT 	// new line
+	OUT ?- R_OUT
+	HALT
