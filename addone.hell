@@ -2,7 +2,7 @@
 // date: 4/24/2022
 //
 // This program takes a user-inputted ASCII character and
-// adds 1 to it. However, it does not handle caries, so it
+// adds 1 to it. However, it does not handle carry's, so it
 // won't work for any ASCII character whose ternary 
 // representation has a 2 in the 0th place (b, e, h, etc.).
 //
